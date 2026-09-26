@@ -1,0 +1,16 @@
+{
+  "records": [
+    {"id": "1", "type": "A", "name": "", "data": "1.2.3.4", "priority": -1, "ttl": 300},
+    {"id": "2", "type": "A", "name": "", "data": "1.2.3.5", "priority": -1, "ttl": 300},
+    {"id": "3", "type": "SSHFP", "name": "", "data": "1 1 bf6b6825d2977c511a475bbefb88aad54a92ac73", "priority": -1, "ttl": 3600},
+    {"id": "4", "type": "SSHFP", "name": "", "data": "1 1 7491973e5f8b39d5327cd4e08bc81b05f7710b49", "priority": -1, "ttl": 3600},
+    {"id": "5", "type": "CAA", "name": "", "data": "0 issue \"ca.unit.tests\"", "priority": -1, "ttl": 3600},
+    {"id": "6", "type": "SRV", "name": "_imap._tcp", "data": "0 0 .", "priority": 0, "ttl": 600},
+    {"id": "7", "type": "SRV", "name": "_pop3._tcp", "data": "0 0 .", "priority": 0, "ttl": 600},
+    {"id": "8", "type": "SRV", "name": "_srv._tcp", "data": "20 30 foo-1.unit.tests.", "priority": 10, "ttl": 600},
+    {"id": "9", "type": "SRV", "name": "_srv._tcp", "data": "20 30 foo-2.unit.tests.", "priority": 12, "ttl": 600},
+    {"id": "10", "type": "AAAA", "name": "aaaa", "data": "2601:644:500:e210:62f8:1dff:feb8:947a", "priority": -1, "ttl": 600},
+    {"id": "11", "type": "CNAME", "name": "cname", "data": "unit.tests", "priority": -1, "ttl": 300}
+  ],
+  "meta": {"total": 23, "links": {"next": "next-page", "prev": ""}}
+}

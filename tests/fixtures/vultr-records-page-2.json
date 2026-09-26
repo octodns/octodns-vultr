@@ -1,0 +1,17 @@
+{
+  "records": [
+    {"id": "12", "type": "CNAME", "name": "included", "data": "unit.tests", "priority": -1, "ttl": 3600},
+    {"id": "13", "type": "MX", "name": "mx", "data": "smtp-1.unit.tests", "priority": 40, "ttl": 300},
+    {"id": "14", "type": "MX", "name": "mx", "data": "smtp-2.unit.tests", "priority": 20, "ttl": 300},
+    {"id": "15", "type": "MX", "name": "mx", "data": "smtp-3.unit.tests", "priority": 30, "ttl": 300},
+    {"id": "16", "type": "MX", "name": "mx", "data": "smtp-4.unit.tests", "priority": 10, "ttl": 300},
+    {"id": "17", "type": "NS", "name": "under", "data": "ns1.unit.tests", "priority": -1, "ttl": 3600},
+    {"id": "18", "type": "NS", "name": "under", "data": "ns2.unit.tests", "priority": -1, "ttl": 3600},
+    {"id": "19", "type": "TXT", "name": "txt", "data": "\"Bah bah black sheep\"", "priority": -1, "ttl": 600},
+    {"id": "20", "type": "TXT", "name": "txt", "data": "\"have you any wool.\"", "priority": -1, "ttl": 600},
+    {"id": "21", "type": "TXT", "name": "txt", "data": "\"v=DKIM1;k=rsa;s=email;h=sha256;p=A/kinda+of/long/string+with+numb3rs\"", "priority": -1, "ttl": 600},
+    {"id": "22", "type": "A", "name": "www", "data": "2.2.3.6", "priority": -1, "ttl": 300},
+    {"id": "23", "type": "A", "name": "www.sub", "data": "2.2.3.6", "priority": -1, "ttl": 300}
+  ],
+  "meta": {"total": 23, "links": {"next": "", "prev": ""}}
+}

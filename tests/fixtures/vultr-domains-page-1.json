@@ -1,0 +1,6 @@
+{
+  "domains": [
+    {"domain": "other.com", "date_created": "2020-01-01", "dns_sec": "disabled"}
+  ],
+  "meta": {"total": 2, "links": {"next": "next-page", "prev": ""}}
+}
